@@ -6,9 +6,12 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 0
-    path: Assets/Main.unity
-    guid: a1c83edfcfc5aff43b4561685f083899
-  - enabled: 1
+    path: 
+    guid: 00000000000000000000000000000000
+  - enabled: 0
     path: Assets/Scenes/SampleScene.unity
     guid: b4299b39a7fa7d049ac7f55bec5b8c7b
+  - enabled: 1
+    path: Assets/Scenes/biliard table.unity
+    guid: 5adf130ee2047ed4dab88c96fda9b050
   m_configObjects: {}
