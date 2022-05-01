@@ -5,10 +5,20 @@ using UnityEngine;
 public class Goal : MonoBehaviour
 {
     public ResultConditions resultScript;
-
-    private void OnTriggerEnter(Collider other)
+    public GameObject uiObject;
+    void Start()
     {
-        resultScript.WinCondition();
+        uiObject.SetActive(false);
+    }
+
+    void OnTriggerEnter (Collider player)
+    {
+        if(player.gameObject.tag == "Player")
+        {
+            uiObject.SetActive(true);
+            resultScript.WinCondition();
+        }
+        
     }
 
 }
