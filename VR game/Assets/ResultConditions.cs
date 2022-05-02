@@ -32,8 +32,13 @@ public class ResultConditions : MonoBehaviour
             loseUI.SetActive(true); 
             Debug.Log("lose");
             gameEnd = true;
-            SceneManager.LoadScene("biliard table");
-        }
-        
+            StartCoroutine(reset());
+        }        
+    }
+
+    IEnumerator reset()
+    {
+        yield return new WaitForSecondsRealtime(3);  // wait 3 sec
+        SceneManager.LoadScene("biliard table");
     }
 }
