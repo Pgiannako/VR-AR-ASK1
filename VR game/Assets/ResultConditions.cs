@@ -1,6 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class ResultConditions : MonoBehaviour
 {
@@ -31,6 +32,7 @@ public class ResultConditions : MonoBehaviour
             loseUI.SetActive(true); 
             Debug.Log("lose");
             gameEnd = true;
+            SceneManager.LoadScene("biliard table");
         }
         
     }
