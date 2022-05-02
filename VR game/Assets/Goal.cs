@@ -15,10 +15,17 @@ public class Goal : MonoBehaviour
     {
         if(player.gameObject.tag == "Player")
         {
-            
+            Destroy(player.gameObject);
             resultScript.WinCondition();
         }
-        
+        else if (player.gameObject.tag == "Respawn")
+        {
+            Destroy(player.gameObject);
+            resultScript.LoseCondition();
+        }
+        Destroy(player.gameObject);
+
+
     }
 
 }
