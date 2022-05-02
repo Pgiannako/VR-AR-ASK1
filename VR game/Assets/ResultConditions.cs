@@ -39,6 +39,6 @@ public class ResultConditions : MonoBehaviour
     IEnumerator reset()
     {
         yield return new WaitForSecondsRealtime(3);  // wait 3 sec
-        SceneManager.LoadScene("biliard table");
+        SceneManager.LoadScene(SceneManager.GetActiveScene().name);
     }
 }
