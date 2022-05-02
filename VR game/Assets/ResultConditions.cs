@@ -14,6 +14,7 @@ public class ResultConditions : MonoBehaviour
     {
         winUI.SetActive(false);
         loseUI.SetActive(false);
+        sceneNum = SceneManager.sceneCountInBuildSettings;
     }
     public void WinCondition()
     {
@@ -22,6 +23,7 @@ public class ResultConditions : MonoBehaviour
             winUI.SetActive(true);
             Debug.Log("win");
             gameEnd = true;
+            StartCoroutine(nextScene());
         }
     }
 
@@ -40,5 +42,12 @@ public class ResultConditions : MonoBehaviour
     {
         yield return new WaitForSecondsRealtime(3);  // wait 3 sec
         SceneManager.LoadScene(SceneManager.GetActiveScene().name);
+    }
+
+    IEnumerator nextScene()
+    {
+        yield return new WaitForSecondsRealtime(3);  // wait 3 sec
+        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1, LoadSceneMode.Single);  // TODO add a way to figure when we reach the last scene
+        //SceneManager.SetActiveScene(SceneManager.GetSceneByBuildIndex(1);
     }
 }
