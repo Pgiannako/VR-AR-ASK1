@@ -9,7 +9,6 @@ public class ResultConditions : MonoBehaviour
     public GameObject winUI;
     public GameObject loseUI;
 
-
     public void Initialise()
     {
         winUI.SetActive(false);
@@ -33,6 +32,7 @@ public class ResultConditions : MonoBehaviour
             loseUI.SetActive(true); 
             Debug.Log("lose");
             gameEnd = true;
+            scoring.totalDeaths += 1;
             StartCoroutine(reset());
         }        
     }
