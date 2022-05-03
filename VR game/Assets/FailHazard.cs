@@ -4,7 +4,6 @@ using UnityEngine;
 
 public class FailHazard : MonoBehaviour
 {
-
     public ResultConditions resultScript;
 
     void Start()
@@ -16,6 +15,7 @@ public class FailHazard : MonoBehaviour
     {
         if (other.gameObject.tag == "Player")
         {
+            GetComponent<AudioSource>().Play();
             Destroy(other.gameObject);
             resultScript.LoseCondition();
         }
