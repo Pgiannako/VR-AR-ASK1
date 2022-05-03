@@ -693,7 +693,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 334939603}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -2.02, y: 4.95, z: 2.13}
+  m_LocalPosition: {x: -2.02, y: 13.05, z: 2.13}
   m_LocalScale: {x: 0.6, y: 0.6, z: 0.6}
   m_Children: []
   m_Father: {fileID: 0}
@@ -1290,7 +1290,7 @@ MonoBehaviour:
 
     (or more) holes.
 
-    You control the platform
+    You are the platform.
 
     Rotate the platform using your head (metaphorically and literally), and try to
     put the ball in the hole.
