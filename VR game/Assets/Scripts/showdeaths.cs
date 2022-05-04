@@ -13,7 +13,19 @@ public class showdeaths : MonoBehaviour
     }
     void Start()
     {
-        text.text = $"You died {scoring.totalDeaths} times ";
+        if(scoring.totalDeaths == 0)
+        {
+            text.text = $"You died {scoring.totalDeaths} times, what a god! ";
+        }
+        else if(scoring.totalDeaths < 6)
+        {
+            text.text = $"You died {scoring.totalDeaths} times , that's pretty good :)";
+        }
+        else if(scoring.totalDeaths > 5)
+        {
+            text.text = $"You died {scoring.totalDeaths} times , that's not bad!";
+        }
+        
     }
 
 }
