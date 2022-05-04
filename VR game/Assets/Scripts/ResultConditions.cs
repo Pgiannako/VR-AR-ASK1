@@ -14,6 +14,16 @@ public class ResultConditions : MonoBehaviour
         winUI.SetActive(false);
         loseUI.SetActive(false);
     }
+
+    void Update()
+    {
+        if (Input.GetKeyDown(KeyCode.Escape))
+        {
+            Application.Quit();
+        }
+    }
+
+
     public void WinCondition()
     {
         if (!gameEnd)
