@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.44801265, g: 0.49801838, b: 0.57550913, a: 1}
+  m_IndirectSpecularColor: {r: 0.448013, g: 0.49801892, b: 0.57550997, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -1098,7 +1098,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6947af80c0c6f4944af65e81ccf73ad0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  resultScript: {fileID: 0}
+  resultScript: {fileID: 1372821893}
 --- !u!1 &293728316
 GameObject:
   m_ObjectHideFlags: 0
@@ -3653,7 +3653,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6947af80c0c6f4944af65e81ccf73ad0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  resultScript: {fileID: 0}
+  resultScript: {fileID: 1372821893}
 --- !u!1 &982078529
 GameObject:
   m_ObjectHideFlags: 0
@@ -4537,7 +4537,6 @@ GameObject:
   - component: {fileID: 1201359466}
   - component: {fileID: 1201359468}
   - component: {fileID: 1201359467}
-  - component: {fileID: 1201359469}
   m_Layer: 0
   m_Name: Player  Ball
   m_TagString: Player
@@ -4766,19 +4765,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c13cc46d72b6bb64b90ce2d17215e61a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
---- !u!114 &1201359469
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1201359459}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 6947af80c0c6f4944af65e81ccf73ad0, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  resultScript: {fileID: 0}
 --- !u!1 &1228492793
 GameObject:
   m_ObjectHideFlags: 0
@@ -4869,7 +4855,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1228492793}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -7.91, y: 3.69, z: -1.92}
+  m_LocalPosition: {x: -5.32, y: 3.69, z: -1.41}
   m_LocalScale: {x: 0.7, y: 0.7, z: 0.7}
   m_Children: []
   m_Father: {fileID: 0}
@@ -5023,7 +5009,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6947af80c0c6f4944af65e81ccf73ad0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  resultScript: {fileID: 0}
+  resultScript: {fileID: 1372821893}
 --- !u!1 &1229017615
 GameObject:
   m_ObjectHideFlags: 0
