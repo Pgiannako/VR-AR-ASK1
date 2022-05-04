@@ -8,6 +8,7 @@ public class ResultConditions : MonoBehaviour
     private bool gameEnd;
     public GameObject winUI;
     public GameObject loseUI;
+    private int ballCounter = 0;
 
     public void Initialise()
     {
@@ -28,10 +29,36 @@ public class ResultConditions : MonoBehaviour
     {
         if (!gameEnd)
         {
-            winUI.SetActive(true);
-            Debug.Log("win");
-            gameEnd = true;
-            StartCoroutine(nextScene());
+            name = SceneManager.GetActiveScene().name;
+            if (name == "biliard table 5") // unique win condition for scene 5
+            {
+                ballCounter += 1;
+                if(ballCounter == 4)
+                {
+                    winUI.SetActive(true);
+                    Debug.Log("win");
+                    gameEnd = true;
+                    StartCoroutine(nextScene());
+                }
+            }
+            else if(name == "biliard table 6")  // unique win condition for scene 6
+            {
+                ballCounter += 1;
+                if (ballCounter == 6)
+                {
+                    winUI.SetActive(true);
+                    Debug.Log("win");
+                    gameEnd = true;
+                    StartCoroutine(nextScene());
+                }
+            }
+            else  // generic win condition
+            {
+                winUI.SetActive(true);
+                Debug.Log("win");
+                gameEnd = true;
+                StartCoroutine(nextScene());
+            } 
         }
     }
 
