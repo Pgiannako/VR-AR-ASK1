@@ -4,5 +4,5 @@ using UnityEngine;
 
 public class scoring : MonoBehaviour
 {
-    public static int totalDeaths = 1;
+    public static int totalDeaths;
 }

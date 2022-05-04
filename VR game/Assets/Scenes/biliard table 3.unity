@@ -336,7 +336,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: d3d0928bc7a66d042a7f319b6628dc3a, type: 2}
+  - {fileID: 2100000, guid: 4ec9b3a063417a04996a435e02c42f9c, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -373,7 +373,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 260617111}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 71e7b2dad1496de49a66362e5d868bf5, type: 3}
+  m_Script: {fileID: 11500000, guid: e1f121a39c5a9ac4faf36007ca8f0a2c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   resultScript: {fileID: 1372821893}
@@ -2830,7 +2830,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 1105270984}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 71e7b2dad1496de49a66362e5d868bf5, type: 3}
+  m_Script: {fileID: 11500000, guid: e1f121a39c5a9ac4faf36007ca8f0a2c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   resultScript: {fileID: 1372821893}
@@ -2864,7 +2864,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: d3d0928bc7a66d042a7f319b6628dc3a, type: 2}
+  - {fileID: 2100000, guid: 4ec9b3a063417a04996a435e02c42f9c, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -3987,14 +3987,14 @@ RectTransform:
   m_GameObject: {fileID: 1561764393}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: -10.44}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalScale: {x: 0.6, y: 0.6, z: 0.6}
   m_Children: []
   m_Father: {fileID: 936838335}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0, y: -9.25}
+  m_AnchoredPosition: {x: 0, y: -8.22}
   m_SizeDelta: {x: 50, y: 10}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1561764395
@@ -4028,7 +4028,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Oh no! More balls!
+  m_Text: Remember, white ball in is a foul!
 --- !u!222 &1561764396
 CanvasRenderer:
   m_ObjectHideFlags: 0
