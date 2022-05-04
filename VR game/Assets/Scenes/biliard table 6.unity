@@ -976,7 +976,7 @@ AudioSource:
   m_Enabled: 1
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 0}
-  m_audioClip: {fileID: 8300000, guid: 8d69aeb3c78187344ab5317127c9c00f, type: 3}
+  m_audioClip: {fileID: 8300000, guid: 2f9cbed306732a24c8a65ebedc737888, type: 3}
   m_PlayOnAwake: 1
   m_Volume: 0.1
   m_Pitch: 1
@@ -9327,6 +9327,7 @@ GameObject:
   - component: {fileID: 2076978830}
   - component: {fileID: 2076978829}
   - component: {fileID: 2076978828}
+  - component: {fileID: 2076978832}
   m_Layer: 0
   m_Name: hole cover (5)
   m_TagString: Untagged
@@ -9355,7 +9356,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2076978826}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 71e7b2dad1496de49a66362e5d868bf5, type: 3}
   m_Name: 
@@ -9391,7 +9392,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: d3d0928bc7a66d042a7f319b6628dc3a, type: 2}
+  - {fileID: 2100000, guid: 4ec9b3a063417a04996a435e02c42f9c, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -9419,6 +9420,19 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2076978826}
   m_Mesh: {fileID: 10207, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &2076978832
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2076978826}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e1f121a39c5a9ac4faf36007ca8f0a2c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  resultScript: {fileID: 1372821893}
 --- !u!1 &2081759654
 GameObject:
   m_ObjectHideFlags: 0
